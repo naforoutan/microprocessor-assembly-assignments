@@ -1,6 +1,6 @@
 # Microprocessor Assembly Assignments
 
-University microprocessor coursework prepared for GitHub publication. The current workspace contains four preserved assignment projects using Keil uVision, STM32F401 targets, ARM assembly/CMSIS C, and Proteus where available.
+University microprocessor coursework prepared for GitHub publication. The current workspace contains five preserved assignment projects using Keil uVision, STM32F401 targets, ARM assembly/CMSIS C, and Proteus where available.
 
 The original project layouts are intentionally preserved so Keil and Proteus relative references remain valid.
 
@@ -12,6 +12,7 @@ The original project layouts are intentionally preserved so Keil and Proteus rel
 | HW3 | STM32F401 GPIO, SysTick timing, button input, LEDs, and LCD output | STM32F401RETx | Keil uVision, CMSIS C, Proteus | [Assignment-03-GPIO-LCD](Assignment-03-GPIO-LCD/) |
 | HW4 | Timer interrupts, PWM duty control, EXTI button input, LEDs, and LCD status | STM32F401RETx | Keil uVision, CMSIS C, Proteus | [Assignment-04-Timer-PWM-Interrupts](Assignment-04-Timer-PWM-Interrupts/) |
 | HW5 | ADC temperature measurement, USART2 reports, PWM, EXTI, LEDs, and LCD status | STM32F401RETx | Keil uVision, CMSIS C, Proteus | [Assignment-05-ADC-UART-Temperature](Assignment-05-ADC-UART-Temperature/) |
+| HW6 | ADC buffering, DMA-style block processing, UART reports, PWM, EXTI, LEDs, and LCD status | STM32F401RETx | Keil uVision, CMSIS C, Proteus | [Assignment-06-ADC-DMA-Buffering](Assignment-06-ADC-DMA-Buffering/) |
 
 ## Opening Projects
 
@@ -24,8 +25,8 @@ The original project layouts are intentionally preserved so Keil and Proteus rel
 ## Preservation Notes
 
 - Assembly source, C source, Keil project files, Proteus project files, RTE configuration files, and existing build outputs were not modified.
-- The HW3, HW4, and HW5 Proteus projects are binary and appear to contain embedded firmware/source references. Their `.pdsprj` files and existing HEX outputs are preserved.
-- HW3, HW4, and HW5 Keil project files reference STM32Cube files using local absolute paths under `C:\Users\ASUS\STM32Cube\Repository\...`; another machine may need those paths repaired in Keil.
+- The HW3, HW4, HW5, and HW6 Proteus projects are binary and appear to contain embedded firmware/source references. Their `.pdsprj` files and existing HEX outputs are preserved.
+- HW3, HW4, HW5, and HW6 Keil project files reference STM32Cube files using local absolute paths under `C:\Users\ASUS\STM32Cube\Repository\...`; another machine may need those paths repaired in Keil.
 - No Keil or Proteus build/simulation was performed in this environment.
 
 ## Suggested GitHub Repository Metadata
