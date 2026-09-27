@@ -1,0 +1,30 @@
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Keil temporary and user-local files
+*.tmp
+*.bak
+*.uvgui.*
+*.uvguix.*
+*.uvgui_*
+*.uvguix_*
+
+# Keil generated intermediates
+**/Listings/
+**/Objects/*
+!**/Objects/*.hex
+
+# Proteus user-local/autosave files
+*.workspace
+*.pdsprj.*.workspace
+**/Project Backups/
+
+# Keep source and project dependencies trackable:
+# - *.s, *.c, *.h
+# - *.uvproj, *.uvprojx, *.uvopt, *.uvoptx
+# - *.pdsprj, *.dsn
+# - *.hex when needed by a simulation
