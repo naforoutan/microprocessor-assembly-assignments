@@ -11,6 +11,7 @@ Laboratory assignments and experiments for the Microprocessors Lab course. Proje
 | Lab 03 | UART protocol for DC motor PWM and direction control | STM32F401RETx, Windows | STM32CubeMX, Keil uVision, C# WinForms | [Lab-03-UART-Motor-PWM](Lab-03-UART-Motor-PWM/) |
 | Lab 04 | ADC-based motor speed/reporting with UART protocol | STM32F401RETx, Windows | STM32CubeMX, Keil uVision, C# WinForms | [Lab-04-ADC-Motor-Control](Lab-04-ADC-Motor-Control/) |
 | Lab 05 | PWM frequency measurement with EXTI interrupt | STM32F401RETx, Windows | STM32CubeMX, Keil uVision, C# WinForms | [Lab-05-Interrupt-Control](Lab-05-Interrupt-Control/) |
+| Lab 06 | Timer interrupt and PWM frequency measurement | STM32F401RETx, Windows | STM32CubeMX, Keil uVision, C# WinForms, Python | [Lab-06-Timer-Interrupt-PWM-Measurement](Lab-06-Timer-Interrupt-PWM-Measurement/) |
 
 ## Opening Projects
 
